@@ -8,7 +8,7 @@ const Sidebar = () => {
     const isMenuOpen=useSelector((store)=>store.app.isMenuOpen);// subscribing to specific part
     if(!isMenuOpen) return null;
   return (
-    <div className='p-5 shadow-lg col-span-1'>
+    <div className='p-5 shadow-lg col-span-1 absolute bg-white h-max z-20'>
         <ul>
        <Link to="/"><li>Home</li></Link> 
         <li>Shorts</li>
