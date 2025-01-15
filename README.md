@@ -37,7 +37,7 @@ The YouTube Clone project is a feature-rich, single-page application that replic
 ---
 
 ## APIs Used
-All API endpoints are managed in a single file (`api.js`) for better organization. Below are the APIs used in the project:
+All API endpoints are managed in a single file (`constantss.js`) for better organization. Below are the APIs used in the project:
 
 1. **YouTube Video API**  
    Fetches the most popular videos in a specific region.  

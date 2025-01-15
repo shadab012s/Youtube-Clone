@@ -29,10 +29,8 @@ const LiveChat = () => {
   return (
     <div className="w-full max-w-2xl mx-auto h-[600px] my-5 p-2 border border-black bg-slate-100 rounded-lg relative">
       {/* Fixed Header */}
-      <div className="font-bold p-2  bg-slate-100 z-10 sticky top-0 text-center ">
-        
-        Live Chat
-      
+      <div className=" p-2  bg-slate-100 z-10 sticky top-0 text-center ">
+      <span className="font-bold">Live Chat</span>
 
       {/* Scrollable Chat Messages */}
       <div className="h-[480px] mt-2 flex flex-col-reverse overflow-y-scroll">
